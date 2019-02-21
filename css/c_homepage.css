@@ -1,7 +1,21 @@
 header {
   text-align: center;
-  background-size: cover;
-  background: linear-gradient( 0deg, rgb(2,52,132) 0%, rgb(34,193,195) 100%);
+  .knockout {
+  background: url(https://unsplash.com/photos/TD4DBagg2wE) -80px -80px;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: inconsolata;
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+body{
+  background: #444;
+}
 }
 
 h1 {
