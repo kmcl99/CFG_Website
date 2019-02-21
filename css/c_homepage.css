@@ -1,7 +1,7 @@
 header {
   text-align: center;
   background-size: cover;
-  background: ;
+  background: url(mike-kenneally-46284-unsplash.jpg);
 }
 
 h1 {
@@ -12,8 +12,9 @@ h1 {
 }
 
 a {
-    color: black;
-}
+    color: white;
+    mix-blend-mode: difference;
+  }
 
 ul {
   padding: 10px;
