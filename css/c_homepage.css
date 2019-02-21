@@ -1,10 +1,12 @@
 header {
   text-align: center;
   background-size: cover;
-  background: linear-gradient( 0deg, rgb(2,52,132) 0%, rgb(34,193,195) 100%);
+  background: url(mike-kenneally-46284-unsplash.jpg);
 }
 
 h1 {
+  color: white;
+  mix-blend-mode: difference;
   text-align: center;
   font-size:5em;
 <!-- Couldn't find a nice supported font family yet-->
@@ -12,8 +14,8 @@ h1 {
 }
 
 a {
-    color: white;
-    mix-blend-mode: difference;
+    color: black;
+
   }
 
 ul {
