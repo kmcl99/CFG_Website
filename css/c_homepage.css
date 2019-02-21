@@ -1,10 +1,8 @@
 header {
-   color: white;
-   background: "mike-kenneally-46284-unsplash.jpg" no-repeat;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+  text-align: center;
+  background-size: cover;
+  background: linear-gradient( 0deg, rgb(2,52,132) 0%, rgb(34,193,195) 100%);
 }
-
 
 h1 {
   text-align: center;
