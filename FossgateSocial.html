@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>York Cafe Trail</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/cafepages.css">
+
+</head>
+
+
+
+    <nav class="navbar sticky-bar navbar-dark navbar-expand-lg bg-dark">
+      <a class="navbar-brand">
+        <img src="images/logo.jpg" width="30" height="30" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="CafeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Cafes
+            <span class="sr-only">(current)</span></a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Fossgate Social</a>
+                <a class="dropdown-item" href="#">Brew & Brownie</a>
+                <a class="dropdown-item" href="#">Stanley & Ramona</a>
+                <a class="dropdown-item" href="#">Bison Coffee</a>
+              </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="TeahouseDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tea Houses
+            </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Ippuku Tea House</a>
+                <a class="dropdown-item" href="#">Hebden Tea</a>
+                <a class="dropdown-item" href="#">Garden Room</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Map</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+<body>
+
+<!-- Collapasable Sections -->
+  <div class="accordion" id="DirectionAccordion">
+    <div class="card">
+      <div class="card-header" id="directions">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#directions" aria-expanded="true" aria-controls="directions">
+            Directions
+          </button>
+        </h2>
+      </div>
+      <div id="DirectionsCollapse" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            paragraph
+          </div>
+      </div>
+    </div>
+  <div class="card">
+    <div class="card-header" id="ContactAccordion">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Contact Details
+        </button>
+      </h2>
+    </div>
+    <div id="ContactCollapse" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        details
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
