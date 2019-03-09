@@ -26,9 +26,9 @@
           </span>
           <div class="dropdown-menu" id="cafe-dd-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="FossgateSocial.html">Fossgate Social</a>
-            <a class="dropdown-item" href="#">Brew & Brownie</a>
-            <a class="dropdown-item" href="#">Stanley & Ramona</a>
-            <a class="dropdown-item" href="#">Bison Coffee</a>
+            <a class="dropdown-item" href="B&B.html">Brew & Brownie</a>
+            <a class="dropdown-item" href="S&R.html">Stanley & Ramona</a>
+            <a class="dropdown-item" href="Bison.html">Bison Coffee</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -36,9 +36,10 @@
             Tea Houses
           </span>
             <div class="dropdown-menu" id="teahouse-dd-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Ippuku Tea House</a>
-              <a class="dropdown-item" href="#">Hebden Tea</a>
-              <a class="dropdown-item" href="#">Garden Room</a>
+              <a class="dropdown-item" href="ippuku.html">Ippuku Tea House</a>
+              <a class="dropdown-item" href="Hebden.html">Hebden Tea</a>
+              <a class="dropdown-item" href="Garden.html">Garden Room</a>
+              <a class="dropdown-item" href="Bettys.html">Betty's</a>
             </div>
         </li>
         <li class="nav-item">
@@ -84,14 +85,14 @@
     </a>
   </div>
 
+<br>
 <!-- About Us -->
-  <p id="intro">
-    <h3> What we do </h3>
-      York Cafe Trail is your guide to great coffee, tea and baked goods in the York. We love all these things and have created a guide to the best York has to offer. York has an amazing amount of cafes and we want to make the decision of where to go a little easier for you.
+  <h2> What we do </h2>
+  <p id="intro">York Cafe Trail is your guide to great coffee, tea and baked goods in the York. We love all these things and have created a guide to the best York has to offer. York has an amazing amount of cafes and we want to make the decision of where to go a little easier for you.
   </p>
 
 <!-- Cafe Cards -->
-  <div class="row">
+  <div class="row" id='cafecards'>
     <div class="col-sm">
       <div class="card" style="width: 18rem;">
       <img class="card-img-top" src="images/fossgate-social.jpg" alt="Fossgate Social">
@@ -107,7 +108,7 @@
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="images/IMG_20180925_082854.jpg" alt="Brew and Brownie">
         <div class="card-body">
-          <h2 class="card-title">Brew&Brownie</h2>
+          <h2 class="card-title">Brew & Brownie</h2>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="#" class="btn btn-primary">Learn more</a>
         </div>
@@ -118,7 +119,7 @@
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="images/IMG_7656.jpg" alt="Stanley and Ramona">
         <div class="card-body">
-          <h2 class="card-title">Stanley&Ramona</h2>
+          <h2 class="card-title">Stanley & Ramona</h2>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="#" class="btn btn-primary">Learn more</a>
         </div>
@@ -140,7 +141,7 @@
 <br>
 
 <!-- Teahouse Cards -->
-    <div class="row">
+    <div class="row" id='teacards'>
       <div class="col-sm">
         <div class="card" style="width: 18rem;">
       <img class="card-img-top" src="images/ippuku.jpg" alt="Ippuku">
@@ -174,9 +175,9 @@
       </div>
       <div class="col-sm">
         <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="images/baileys.jpg" alt="Bailey's">
+      <img class="card-img-top" src="images/bettys.jpg" alt="Betty's">
       <div class="card-body">
-        <h2 class="card-title">Bailey's</h2>
+        <h2 class="card-title">Betty's</h2>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="#" class="btn btn-primary">Learn more</a>
       </div>
@@ -188,20 +189,20 @@
 
 <!--Subscription-->
 <br>
-    <h3>Subscribe to our newsletter!</h3>
-      <div id="footer_signup">
+  <div id="footer">
+    <h3 id="subscribe-title" >Subscribe to our newsletter!</h3>
         <form id="subscribe" method="POST">
-          <input type="email" class="form-control input-lg" placeholder="Your email" name="email" id="address" data-validate="validate(required, email)"/>
-          <button type="submit" id="submitbutton" class="btn submitbutton" >Submit</button>
+          <input type="email" class="form-control input-lg" placeholder="Your email" name="email" id="address" data-validate="validate(required, email)">
+          <button type="submit" id="submitbutton" class="btn submitbutton">Submit</button>
         </form>
-
+    </div>
 <!--Social Buttons-->
-<br>
-  <div>
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
-    <a href="#" class="fa fa-instagram"></a>
-  </div>
+      <div id="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
