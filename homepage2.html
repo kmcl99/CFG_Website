@@ -12,30 +12,30 @@
     <a class="navbar-brand">
       <img src="images/logo.jpg" width="30" height="30" alt="">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
+    <div>
+      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item active"></li>
+      <span class='cafes-button'>Cafes</span>
+      <span class='teahouses-button'>Tea Houses</span>
+    </div>
+  </nav>
+
+
+  <!-- Nav Menu -->
+  <div class='nav-menu hide' id='nav-dropdown'>
+    <div class='container'>
+      <ul>
+        <a class="dropdown-item" href="FossgateSocial.html">Fossgate Social</a>
+        <a class="dropdown-item" href="#">Brew & Brownie</a>
+        <a class="dropdown-item" href="#">Stanley & Ramona</a>
+        <a class="dropdown-item" href="#">Bison Coffee</a>
+      </ul>
+
         <li class="nav-item dropdown">
-          <span class="nav-link dropdown-toggle" id="CafeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Cafes
-          </span>
-          <div class="dropdown-menu" id="cafe-dd-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="FossgateSocial.html">Fossgate Social</a>
-            <a class="dropdown-item" href="#">Brew & Brownie</a>
-            <a class="dropdown-item" href="#">Stanley & Ramona</a>
-            <a class="dropdown-item" href="#">Bison Coffee</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <span class="nav-link dropdown-toggle" id="TeahouseDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="TeahouseDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Tea Houses
-          </span>
-            <div class="dropdown-menu" id="teahouse-dd-menu" aria-labelledby="navbarDropdown">
+          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Ippuku Tea House</a>
               <a class="dropdown-item" href="#">Hebden Tea</a>
               <a class="dropdown-item" href="#">Garden Room</a>
