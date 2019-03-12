@@ -1,9 +1,10 @@
 body  {
-  font-family: inherit;
+  font-family: inconsolata;
   color: rgb(0,0,0)
   }
 h1 {
           font-size: 3em;
+          font-family: helvetica-neue;
           text-align: left;
           margin: 0px;
           padding: 0px;
@@ -11,6 +12,7 @@ h1 {
 }
 
 p {
+          font-family: helvetica-neue;
           width: 80%;
           margin: 10vh 10vw;
           font-size:1.5em;
@@ -21,8 +23,6 @@ p {
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+width:"800px"
+align: "center"
 }
