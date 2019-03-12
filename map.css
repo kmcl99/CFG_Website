@@ -1,0 +1,28 @@
+body  {
+  font-family: inherit;
+  color: rgb(0,0,0)
+  }
+h1 {
+          font-size: 3em;
+          text-align: left;
+          margin: 0px;
+          padding: 0px;
+          margin-left: 2px;
+}
+
+p {
+          width: 80%;
+          margin: 10vh 10vw;
+          font-size:1.5em;
+          text-align: center;
+          margin: 0px;
+          padding: 0px;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

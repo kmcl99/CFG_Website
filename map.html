@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Map</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/map.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <nav class="navbar sticky-top navbar-dark navbar-expand-lg bg-dark">
+    <a class="navbar-brand">
+      <img src="images/logo.jpg" width="30" height="30" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <span class="nav-link dropdown-toggle" id="CafeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cafes
+          </span>
+          <div class="dropdown-menu" id="cafe-dd-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="FossgateSocial.html">Fossgate Social</a>
+            <a class="dropdown-item" href="B&B.html">Brew & Brownie</a>
+            <a class="dropdown-item" href="S&R.html">Stanley & Ramona</a>
+            <a class="dropdown-item" href="Bison.html">Bison Coffee</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <span class="nav-link dropdown-toggle" id="TeahouseDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tea Houses
+          </span>
+            <div class="dropdown-menu" id="teahouse-dd-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="ippuku.html">Ippuku Tea House</a>
+              <a class="dropdown-item" href="Hebden.html">Hebden Tea</a>
+              <a class="dropdown-item" href="Garden.html">Garden Room</a>
+              <a class="dropdown-item" href="Bettys.html">Betty's</a>
+            </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="map.html">Map</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
+  </nav>
+
+</head>
+<body>
+<div>
+  <h1>Welcome to the map!</h1>
+  <p>
+  We've created a little map to make your trail around York's coffee shops a little easier.
+  Just click on a cup of coffee or a mug of tea, and it will take you to the information page for that cafe.
+  </p>
+</div>
+
+<div>
+  <img src="images/mapfinal.png" width="600px" align="center">
+</div>
+</body>
+</html>
